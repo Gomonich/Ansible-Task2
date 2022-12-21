@@ -28,3 +28,4 @@
       src: /tmp/party-time/
       dest: /var/www/html/
       remote_src: yes
+      
