@@ -1,0 +1,7 @@
+{
+    "remote.SSH.remotePlatform": {
+        "project.evolvecyber.com": "linux",
+        "Ansible": "linux"
+    },
+    "git.ignoreLegacyWarning": true
+}

@@ -1,0 +1,30 @@
+2022-12-20 23:12:39.300 [info] Log level: Info
+2022-12-20 23:12:39.300 [info] Validating found git in: "git"
+2022-12-20 23:12:39.300 [info] Using git "1.8.3.1" from "git"
+2022-12-20 23:12:39.300 [info] > git rev-parse --show-toplevel [99ms]
+2022-12-20 23:12:39.300 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2022-12-20 23:12:39.300 [info] Open repository: /root/oct_devops_2022_ansible
+2022-12-20 23:12:39.301 [warning] ENOENT: no such file or directory, open '/root/oct_devops_2022_ansible/--git-common-dir/config'
+2022-12-20 23:12:39.301 [info] > git rev-parse --show-toplevel [25ms]
+2022-12-20 23:12:39.301 [info] > git config --get commit.template [7ms]
+2022-12-20 23:12:39.301 [info] > git remote --verbose [23ms]
+2022-12-20 23:12:39.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [1ms]
+2022-12-20 23:12:39.301 [info] > git rev-list --left-right --count main...origin/main [1ms]
+2022-12-20 23:12:39.301 [info] > git status -z -uall [28ms]
+2022-12-20 23:12:39.301 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2022-12-20 23:12:39.301 [warning] ENOENT: no such file or directory, open '/root/oct_devops_2022_ansible/--git-common-dir/config'
+2022-12-20 23:12:39.301 [info] > git config --get commit.template [1ms]
+2022-12-20 23:12:39.301 [info] > git remote --verbose [10ms]
+2022-12-20 23:12:39.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [9ms]
+2022-12-20 23:12:39.301 [info] > git rev-list --left-right --count main...origin/main [2ms]
+2022-12-20 23:12:39.301 [info] > git status -z -uall [17ms]
+2022-12-20 23:12:39.301 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2022-12-20 23:12:39.770 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-20 23:12:41.685 [info] > git show --textconv :README.md [19ms]
+2022-12-20 23:12:41.686 [info] > git ls-files --stage -- /root/oct_devops_2022_ansible/README.md [2ms]
+2022-12-20 23:12:41.707 [info] > git cat-file -s f2e62e1dc4e35293b9c32f08244db345f9e08578 [3ms]
+2022-12-20 23:12:44.633 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-20 23:12:46.578 [info] > git show --textconv :Class1/install.yml [9ms]
+2022-12-20 23:12:46.579 [info] > git ls-files --stage -- /root/oct_devops_2022_ansible/Class1/install.yml [1ms]
+2022-12-20 23:12:46.586 [info] > git cat-file -s 11482d4f8a849f917313c03d0184755d5410ec89 [1ms]
+2022-12-20 23:12:51.383 [info] > git check-ignore -v -z --stdin [2ms]

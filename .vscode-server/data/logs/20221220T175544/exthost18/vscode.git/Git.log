@@ -1,0 +1,23 @@
+2022-12-20 20:20:12.216 [info] Log level: Info
+2022-12-20 20:20:12.216 [info] Validating found git in: "git"
+2022-12-20 20:20:12.217 [info] Using git "1.8.3.1" from "git"
+2022-12-20 20:20:12.217 [info] > git rev-parse --show-toplevel [56ms]
+2022-12-20 20:20:12.217 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-12-20 20:20:12.217 [info] Open repository: /root/oct_devops_2022_ansible
+2022-12-20 20:20:12.217 [warning] ENOENT: no such file or directory, open '/root/oct_devops_2022_ansible/--git-common-dir/config'
+2022-12-20 20:20:12.217 [info] > git rev-parse --show-toplevel [11ms]
+2022-12-20 20:20:12.217 [info] > git config --get commit.template [6ms]
+2022-12-20 20:20:12.217 [info] > git remote --verbose [11ms]
+2022-12-20 20:20:12.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [1ms]
+2022-12-20 20:20:12.217 [info] > git rev-list --left-right --count main...origin/main [0ms]
+2022-12-20 20:20:12.217 [info] > git status -z -uall [7ms]
+2022-12-20 20:20:12.217 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-20 20:20:12.217 [warning] ENOENT: no such file or directory, open '/root/oct_devops_2022_ansible/--git-common-dir/config'
+2022-12-20 20:20:12.217 [info] > git config --get commit.template [0ms]
+2022-12-20 20:20:12.217 [info] > git remote --verbose [6ms]
+2022-12-20 20:20:12.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [1ms]
+2022-12-20 20:20:12.217 [info] > git rev-list --left-right --count main...origin/main [1ms]
+2022-12-20 20:20:12.217 [info] > git status -z -uall [5ms]
+2022-12-20 20:20:12.217 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-20 20:20:12.991 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-20 20:20:37.208 [info] > git check-ignore -v -z --stdin [2ms]

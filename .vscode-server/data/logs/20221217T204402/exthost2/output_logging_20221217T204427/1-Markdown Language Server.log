@@ -1,0 +1,21 @@
+[Trace 20:44:36.239] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///root/oct_devops_2022_ansible/README.md
+[Trace 20:44:36.241] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/oct_devops_2022_ansible/README.md
+[Trace 20:44:36.242] Server: connection.languages.diagnostics.on: file:///root/oct_devops_2022_ansible/README.md
+[Trace 20:44:36.247] Server: connection.languages.diagnostics.on: file:///root/oct_devops_2022_ansible/README.md
+[Trace 20:44:36.881] DocumentSymbolProvider: provideDocumentSymbols — file:///root/oct_devops_2022_ansible/README.md 1
+[Debug 20:44:36.882] LinkProvider: compute - file:///root/oct_devops_2022_ansible/README.md
+[Debug 20:44:37.084] MdFoldingProvider: provideFoldingRanges — file:///root/oct_devops_2022_ansible/README.md 1
+[Debug 20:44:37.085] TableOfContentsProvider: create - file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:24:07.276] VsCodeClientWorkspace: TextDocument.onDidClose: file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:24:07.276] VsCodeClientWorkspace: deleteDocument: file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:27:40.867] Server: connection.languages.diagnostics.on: file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:27:41.007] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:27:41.007] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:27:41.008] Server: connection.languages.diagnostics.on: file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:27:41.008] DocumentSymbolProvider: provideDocumentSymbols — file:///root/oct_devops_2022_ansible/README.md 1
+[Debug 22:27:41.008] LinkProvider: compute - file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:27:41.012] Server: connection.languages.diagnostics.on: file:///root/oct_devops_2022_ansible/README.md
+[Debug 22:27:41.013] TableOfContentsProvider: create - file:///root/oct_devops_2022_ansible/README.md
+[Debug 22:27:41.126] MdFoldingProvider: provideFoldingRanges — file:///root/oct_devops_2022_ansible/README.md 1
+[Trace 22:27:42.580] VsCodeClientWorkspace: TextDocument.onDidClose: file:///root/oct_devops_2022_ansible/README.md
+[Trace 22:27:42.580] VsCodeClientWorkspace: deleteDocument: file:///root/oct_devops_2022_ansible/README.md

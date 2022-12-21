@@ -1,0 +1,41 @@
+2022-12-21 02:45:18.858 [info] Log level: Info
+2022-12-21 02:45:18.858 [info] Validating found git in: "git"
+2022-12-21 02:45:18.858 [info] Using git "1.8.3.1" from "git"
+2022-12-21 02:45:18.858 [info] > git rev-parse --show-toplevel [66ms]
+2022-12-21 02:45:18.858 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-12-21 02:45:18.858 [info] Open repository: /root/task1
+2022-12-21 02:45:18.858 [warning] ENOENT: no such file or directory, open '/root/task1/--git-common-dir/config'
+2022-12-21 02:45:18.858 [info] > git rev-parse --show-toplevel [15ms]
+2022-12-21 02:45:18.858 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2022-12-21 02:45:18.858 [info] Open repository: /root/task1/ansible-task1
+2022-12-21 02:45:18.858 [info] > git config --get commit.template [28ms]
+2022-12-21 02:45:18.858 [info] > git remote --verbose [35ms]
+2022-12-21 02:45:18.858 [warning] ENOENT: no such file or directory, open '/root/task1/ansible-task1/--git-common-dir/config'
+2022-12-21 02:45:18.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2022-12-21 02:45:18.858 [info] > git config --get commit.template [18ms]
+2022-12-21 02:45:18.858 [info] > git remote --verbose [25ms]
+2022-12-21 02:45:18.858 [info] > git rev-list --left-right --count master...origin/master [2ms]
+2022-12-21 02:45:18.858 [info] > git status -z -uall [16ms]
+2022-12-21 02:45:18.858 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2022-12-21 02:45:18.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [13ms]
+2022-12-21 02:45:18.858 [warning] ENOENT: no such file or directory, open '/root/task1/--git-common-dir/config'
+2022-12-21 02:45:18.858 [info] > git status -z -uall [18ms]
+2022-12-21 02:45:18.858 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2022-12-21 02:45:18.858 [info] > git config --get commit.template [6ms]
+2022-12-21 02:45:18.858 [info] > git remote --verbose [11ms]
+2022-12-21 02:45:18.858 [warning] ENOENT: no such file or directory, open '/root/task1/ansible-task1/--git-common-dir/config'
+2022-12-21 02:45:18.858 [info] > git config --get commit.template [1ms]
+2022-12-21 02:45:18.858 [info] > git remote --verbose [7ms]
+2022-12-21 02:45:18.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [1ms]
+2022-12-21 02:45:18.858 [info] > git rev-list --left-right --count master...origin/master [74ms]
+2022-12-21 02:45:18.858 [info] > git status -z -uall [21ms]
+2022-12-21 02:45:18.858 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-21 02:45:18.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [50ms]
+2022-12-21 02:45:18.858 [info] > git status -z -uall [52ms]
+2022-12-21 02:45:18.858 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-21 02:45:18.858 [info] > git show --textconv :website.yml [7ms]
+2022-12-21 02:45:18.858 [info] > git ls-files --stage -- /root/task1/website.yml [1ms]
+2022-12-21 02:45:18.858 [info] > git cat-file -s 402e831bf6cd428014df3938d25872f6aa457f92 [2ms]
+2022-12-21 02:45:18.858 [info] > git check-ignore -v -z --stdin [8ms]
+2022-12-21 02:45:18.858 [info] > git check-ignore -v -z --stdin [4ms]
+2022-12-21 02:45:21.790 [info] > git check-ignore -v -z --stdin [2ms]

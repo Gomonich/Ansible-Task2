@@ -1,0 +1,67 @@
+2022-12-20 19:20:16.699 [info] Log level: Info
+2022-12-20 19:20:16.700 [info] Validating found git in: "git"
+2022-12-20 19:20:16.700 [info] Using git "1.8.3.1" from "git"
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [74ms]
+2022-12-20 19:20:16.700 [info] fatal: Not a git repository (or any of the parent directories): .git
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [4ms]
+2022-12-20 19:20:16.700 [info] fatal: Not a git repository (or any of the parent directories): .git
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-20 19:20:16.700 [info] fatal: Not a git repository (or any of the parent directories): .git
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [2ms]
+2022-12-20 19:20:16.700 [info] fatal: Not a git repository (or any of the parent directories): .git
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [2ms]
+2022-12-20 19:20:16.700 [info] fatal: Not a git repository (or any of the parent directories): .git
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-20 19:20:16.700 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-12-20 19:20:16.700 [info] Open repository: /root/ansible-class
+2022-12-20 19:20:16.700 [warning] ENOENT: no such file or directory, open '/root/ansible-class/--git-common-dir/config'
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [18ms]
+2022-12-20 19:20:16.700 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-12-20 19:20:16.700 [info] Open repository: /root/oct_devops_2022_ansible
+2022-12-20 19:20:16.700 [info] > git config --get commit.template [26ms]
+2022-12-20 19:20:16.700 [info] > git remote --verbose [35ms]
+2022-12-20 19:20:16.700 [warning] ENOENT: no such file or directory, open '/root/oct_devops_2022_ansible/--git-common-dir/config'
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [14ms]
+2022-12-20 19:20:16.700 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2022-12-20 19:20:16.700 [info] Open repository: /root/task1
+2022-12-20 19:20:16.700 [info] > git config --get commit.template [23ms]
+2022-12-20 19:20:16.700 [info] > git remote --verbose [30ms]
+2022-12-20 19:20:16.700 [warning] ENOENT: no such file or directory, open '/root/task1/--git-common-dir/config'
+2022-12-20 19:20:16.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [27ms]
+2022-12-20 19:20:16.700 [info] > git status -z -uall [47ms]
+2022-12-20 19:20:16.700 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [41ms]
+2022-12-20 19:20:16.700 [info] > git config --get commit.template [63ms]
+2022-12-20 19:20:16.700 [info] > git remote --verbose [69ms]
+2022-12-20 19:20:16.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [50ms]
+2022-12-20 19:20:16.700 [info] > git rev-parse --show-toplevel [64ms]
+2022-12-20 19:20:16.700 [info] fatal: Not a git repository (or any of the parent directories): .git
+2022-12-20 19:20:16.700 [warning] ENOENT: no such file or directory, open '/root/ansible-class/--git-common-dir/config'
+2022-12-20 19:20:16.700 [info] > git rev-list --left-right --count main...origin/main [20ms]
+2022-12-20 19:20:16.700 [info] > git status -z -uall [14ms]
+2022-12-20 19:20:16.700 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2022-12-20 19:20:16.700 [info] > git config --get commit.template [52ms]
+2022-12-20 19:20:16.700 [info] > git remote --verbose [58ms]
+2022-12-20 19:20:16.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [7ms]
+2022-12-20 19:20:16.700 [warning] ENOENT: no such file or directory, open '/root/oct_devops_2022_ansible/--git-common-dir/config'
+2022-12-20 19:20:16.700 [info] > git status -z -uall [16ms]
+2022-12-20 19:20:16.700 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2022-12-20 19:20:16.700 [info] > git config --get commit.template [17ms]
+2022-12-20 19:20:16.700 [info] > git remote --verbose [21ms]
+2022-12-20 19:20:16.701 [warning] ENOENT: no such file or directory, open '/root/task1/--git-common-dir/config'
+2022-12-20 19:20:16.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [13ms]
+2022-12-20 19:20:16.701 [info] > git status -z -uall [9ms]
+2022-12-20 19:20:16.701 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-20 19:20:16.701 [info] > git config --get commit.template [18ms]
+2022-12-20 19:20:16.701 [info] > git remote --verbose [23ms]
+2022-12-20 19:20:16.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [1ms]
+2022-12-20 19:20:16.701 [info] > git rev-list --left-right --count main...origin/main [21ms]
+2022-12-20 19:20:16.701 [info] > git status -z -uall [34ms]
+2022-12-20 19:20:16.701 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-20 19:20:16.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [58ms]
+2022-12-20 19:20:16.701 [info] > git status -z -uall [17ms]
+2022-12-20 19:20:16.701 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-20 19:20:16.984 [info] > git check-ignore -v -z --stdin [14ms]
+2022-12-20 19:20:16.985 [info] > git check-ignore -v -z --stdin [9ms]
+2022-12-20 19:20:16.987 [info] > git check-ignore -v -z --stdin [5ms]
+2022-12-20 19:24:58.991 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-20 19:24:58.991 [info] fatal: Not a git repository (or any of the parent directories): .git
